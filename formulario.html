@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto2Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="inicio">
+    <img id="banner" src="banner.jpg" alt="Foto">
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <h3>Formulario de Registro</h3>
+
+      <fieldset class="entrada">
+        <legend id="entradaDatos"><strong>Entrada de datos</strong></legend>
+          <form id="formRegistro" novalidate>
+
+          <p>Nombre</p>
+          <input type="text" id="nombre" name="nombre">
+          <span class="error" id="errorNombre"></span>
+
+          <p>CI</p>
+          <input type="text" id="CI" name="CI">
+          <span class="error" id="errorCI"></span>
+
+          <p>Contraseña</p>
+          <input type="password" id="pass1" name="pass1">
+          <span class="error" id="errorPass1"></span>
+
+          <p>Confirmación</p>
+          <input type="password" id="pass2" name="pass2">
+          <span class="error" id="errorPass2"></span>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+          <br><br><br>
+        </form>
+      </fieldset>
+    </div>
+
+    <div class="link">
+      <a id="linkBlanco" href="index.html">Inicio</a>
+      <br><br>
+      <a id="linkBlanco" href="#">Formulario de registro</a>
+    </div>
+  </main>
+
+  <footer class="pie">
+    Evaluation Final realizada por <a href="#">Kevin Ronquillo Perez.</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
